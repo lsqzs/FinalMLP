@@ -6,7 +6,7 @@ FinalMLP_criteo_x1_001_ea4a337c:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C1]
@@ -48,7 +48,7 @@ FinalMLP_criteo_x1_002_7b48432e:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C2]
@@ -90,7 +90,7 @@ FinalMLP_criteo_x1_003_e8daf7cb:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C5]
@@ -132,7 +132,7 @@ FinalMLP_criteo_x1_004_d5d36917:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C6]
@@ -174,7 +174,7 @@ FinalMLP_criteo_x1_005_e7be6b59:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C8]
@@ -216,7 +216,7 @@ FinalMLP_criteo_x1_006_75556c06:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C9]
@@ -258,7 +258,7 @@ FinalMLP_criteo_x1_007_64b8095d:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C14]
@@ -300,7 +300,7 @@ FinalMLP_criteo_x1_008_cdf1627f:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13]
     fs2_context: [C17]

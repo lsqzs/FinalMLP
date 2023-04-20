@@ -6,7 +6,7 @@ DualMLP_movielenslatest_x1_001_5f5f7452:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -43,7 +43,7 @@ DualMLP_movielenslatest_x1_002_ff36ac60:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -80,7 +80,7 @@ DualMLP_movielenslatest_x1_003_0735fc0e:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -117,7 +117,7 @@ DualMLP_movielenslatest_x1_004_afbf3dfa:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -154,7 +154,7 @@ DualMLP_movielenslatest_x1_005_66b8145d:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -191,7 +191,7 @@ DualMLP_movielenslatest_x1_006_85f2f4ab:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -228,7 +228,7 @@ DualMLP_movielenslatest_x1_007_99b25ea7:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -265,7 +265,7 @@ DualMLP_movielenslatest_x1_008_8beb770f:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -302,7 +302,7 @@ DualMLP_movielenslatest_x1_009_218e7595:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -339,7 +339,7 @@ DualMLP_movielenslatest_x1_010_ff36ac60:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -376,7 +376,7 @@ DualMLP_movielenslatest_x1_011_f4f00a4e:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -413,7 +413,7 @@ DualMLP_movielenslatest_x1_012_ff513941:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -450,7 +450,7 @@ DualMLP_movielenslatest_x1_013_66b8145d:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -487,7 +487,7 @@ DualMLP_movielenslatest_x1_014_f3592cc3:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -524,7 +524,7 @@ DualMLP_movielenslatest_x1_015_6f3c4528:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -561,7 +561,7 @@ DualMLP_movielenslatest_x1_016_8beb770f:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -598,7 +598,7 @@ DualMLP_movielenslatest_x1_017_6634e116:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -635,7 +635,7 @@ DualMLP_movielenslatest_x1_018_040ac688:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -672,7 +672,7 @@ DualMLP_movielenslatest_x1_019_0735fc0e:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -709,7 +709,7 @@ DualMLP_movielenslatest_x1_020_ff513941:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -746,7 +746,7 @@ DualMLP_movielenslatest_x1_021_3c0d2b75:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -783,7 +783,7 @@ DualMLP_movielenslatest_x1_022_85f2f4ab:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -820,7 +820,7 @@ DualMLP_movielenslatest_x1_023_6f3c4528:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -857,7 +857,7 @@ DualMLP_movielenslatest_x1_024_0e003a79:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -894,7 +894,7 @@ DualMLP_movielenslatest_x1_025_218e7595:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -931,7 +931,7 @@ DualMLP_movielenslatest_x1_026_040ac688:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -968,7 +968,7 @@ DualMLP_movielenslatest_x1_027_198bb0ee:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001

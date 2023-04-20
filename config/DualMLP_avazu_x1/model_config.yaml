@@ -6,7 +6,7 @@ DualMLP_avazu_x1_001_2e046612:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -43,7 +43,7 @@ DualMLP_avazu_x1_002_1c2c1f09:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -80,7 +80,7 @@ DualMLP_avazu_x1_003_0a0bf2de:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -117,7 +117,7 @@ DualMLP_avazu_x1_004_719bb9c6:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -154,7 +154,7 @@ DualMLP_avazu_x1_005_4818fa19:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -191,7 +191,7 @@ DualMLP_avazu_x1_006_04c70bfa:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -228,7 +228,7 @@ DualMLP_avazu_x1_007_1c2c1f09:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -265,7 +265,7 @@ DualMLP_avazu_x1_008_1abef4fe:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -302,7 +302,7 @@ DualMLP_avazu_x1_009_719bb9c6:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -339,7 +339,7 @@ DualMLP_avazu_x1_010_1864e8b3:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -376,7 +376,7 @@ DualMLP_avazu_x1_011_04c70bfa:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -413,7 +413,7 @@ DualMLP_avazu_x1_012_1ce71703:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -450,7 +450,7 @@ DualMLP_avazu_x1_013_21e49c1d:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -487,7 +487,7 @@ DualMLP_avazu_x1_014_ccce7cc3:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -524,7 +524,7 @@ DualMLP_avazu_x1_015_3f9d1d9c:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -561,7 +561,7 @@ DualMLP_avazu_x1_016_0b2de833:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -598,7 +598,7 @@ DualMLP_avazu_x1_017_ee44a5fd:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -635,7 +635,7 @@ DualMLP_avazu_x1_018_7ce16f2f:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -672,7 +672,7 @@ DualMLP_avazu_x1_019_ccce7cc3:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -709,7 +709,7 @@ DualMLP_avazu_x1_020_762e099b:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -746,7 +746,7 @@ DualMLP_avazu_x1_021_0b2de833:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -783,7 +783,7 @@ DualMLP_avazu_x1_022_c137aab2:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -820,7 +820,7 @@ DualMLP_avazu_x1_023_7ce16f2f:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -857,7 +857,7 @@ DualMLP_avazu_x1_024_8d9ea1a6:
     embedding_dim: 10
     embedding_regularizer: 0.01
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001

@@ -6,7 +6,7 @@ DualMLP_frappe_x1_001_c060a39e:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -43,7 +43,7 @@ DualMLP_frappe_x1_002_e0baa784:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -80,7 +80,7 @@ DualMLP_frappe_x1_003_35b21bc1:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -117,7 +117,7 @@ DualMLP_frappe_x1_004_45ba8541:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -154,7 +154,7 @@ DualMLP_frappe_x1_005_2171ffd4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -191,7 +191,7 @@ DualMLP_frappe_x1_006_1dee027f:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -228,7 +228,7 @@ DualMLP_frappe_x1_007_2bde7e4c:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -265,7 +265,7 @@ DualMLP_frappe_x1_008_27a1726a:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -302,7 +302,7 @@ DualMLP_frappe_x1_009_e0baa784:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -339,7 +339,7 @@ DualMLP_frappe_x1_010_f86e69cd:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -376,7 +376,7 @@ DualMLP_frappe_x1_011_45ba8541:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -413,7 +413,7 @@ DualMLP_frappe_x1_012_7ac1c476:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -450,7 +450,7 @@ DualMLP_frappe_x1_013_1dee027f:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -487,7 +487,7 @@ DualMLP_frappe_x1_014_e635cb22:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -524,7 +524,7 @@ DualMLP_frappe_x1_015_27a1726a:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -561,7 +561,7 @@ DualMLP_frappe_x1_016_68553519:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -598,7 +598,7 @@ DualMLP_frappe_x1_017_7339f95b:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -635,7 +635,7 @@ DualMLP_frappe_x1_018_81184fa4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -672,7 +672,7 @@ DualMLP_frappe_x1_019_d673edea:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -709,7 +709,7 @@ DualMLP_frappe_x1_020_302e50f8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -746,7 +746,7 @@ DualMLP_frappe_x1_021_0ddf1828:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -783,7 +783,7 @@ DualMLP_frappe_x1_022_6b195697:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -820,7 +820,7 @@ DualMLP_frappe_x1_023_16004eff:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -857,7 +857,7 @@ DualMLP_frappe_x1_024_823be9e8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -894,7 +894,7 @@ DualMLP_frappe_x1_025_81184fa4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -931,7 +931,7 @@ DualMLP_frappe_x1_026_0564d5aa:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -968,7 +968,7 @@ DualMLP_frappe_x1_027_302e50f8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1005,7 +1005,7 @@ DualMLP_frappe_x1_028_66b43c20:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1042,7 +1042,7 @@ DualMLP_frappe_x1_029_6b195697:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1079,7 +1079,7 @@ DualMLP_frappe_x1_030_d5b843ae:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1116,7 +1116,7 @@ DualMLP_frappe_x1_031_823be9e8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1153,7 +1153,7 @@ DualMLP_frappe_x1_032_21479450:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1190,7 +1190,7 @@ DualMLP_frappe_x1_033_42ac91a1:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1227,7 +1227,7 @@ DualMLP_frappe_x1_034_239ee66d:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1264,7 +1264,7 @@ DualMLP_frappe_x1_035_96c9bad2:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1301,7 +1301,7 @@ DualMLP_frappe_x1_036_c9d9fe84:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1338,7 +1338,7 @@ DualMLP_frappe_x1_037_87854be2:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1375,7 +1375,7 @@ DualMLP_frappe_x1_038_119d2237:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1412,7 +1412,7 @@ DualMLP_frappe_x1_039_434921d2:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1449,7 +1449,7 @@ DualMLP_frappe_x1_040_4a340b29:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1486,7 +1486,7 @@ DualMLP_frappe_x1_041_239ee66d:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1523,7 +1523,7 @@ DualMLP_frappe_x1_042_0e281de7:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1560,7 +1560,7 @@ DualMLP_frappe_x1_043_c9d9fe84:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1597,7 +1597,7 @@ DualMLP_frappe_x1_044_9c5bfef9:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1634,7 +1634,7 @@ DualMLP_frappe_x1_045_119d2237:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1671,7 +1671,7 @@ DualMLP_frappe_x1_046_7b470adc:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1708,7 +1708,7 @@ DualMLP_frappe_x1_047_4a340b29:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -1745,7 +1745,7 @@ DualMLP_frappe_x1_048_ff0e6dd9:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001

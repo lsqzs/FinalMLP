@@ -6,7 +6,7 @@ FinalMLP_frappe_x1_001_d86a2703:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -48,7 +48,7 @@ FinalMLP_frappe_x1_002_ec879137:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -90,7 +90,7 @@ FinalMLP_frappe_x1_003_c4ca6aa8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -132,7 +132,7 @@ FinalMLP_frappe_x1_004_e1ab402f:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -174,7 +174,7 @@ FinalMLP_frappe_x1_005_be397d92:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -216,7 +216,7 @@ FinalMLP_frappe_x1_006_4f9cbc73:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -258,7 +258,7 @@ FinalMLP_frappe_x1_007_e7194969:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -300,7 +300,7 @@ FinalMLP_frappe_x1_008_df0e6ca4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -342,7 +342,7 @@ FinalMLP_frappe_x1_009_f93456c9:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -384,7 +384,7 @@ FinalMLP_frappe_x1_010_ce1a596b:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -426,7 +426,7 @@ FinalMLP_frappe_x1_011_dd37277e:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -468,7 +468,7 @@ FinalMLP_frappe_x1_012_9fb22067:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -510,7 +510,7 @@ FinalMLP_frappe_x1_013_71a6eed9:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -552,7 +552,7 @@ FinalMLP_frappe_x1_014_3555f93d:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -594,7 +594,7 @@ FinalMLP_frappe_x1_015_cee3ef16:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -636,7 +636,7 @@ FinalMLP_frappe_x1_016_c3f09893:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -678,7 +678,7 @@ FinalMLP_frappe_x1_017_0d4bb309:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -720,7 +720,7 @@ FinalMLP_frappe_x1_018_064b19f8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -762,7 +762,7 @@ FinalMLP_frappe_x1_019_c15f98e7:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -804,7 +804,7 @@ FinalMLP_frappe_x1_020_43ea9345:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -846,7 +846,7 @@ FinalMLP_frappe_x1_021_66deaab5:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -888,7 +888,7 @@ FinalMLP_frappe_x1_022_508d4d70:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -930,7 +930,7 @@ FinalMLP_frappe_x1_023_cf8b24f8:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -972,7 +972,7 @@ FinalMLP_frappe_x1_024_f5757ee4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1014,7 +1014,7 @@ FinalMLP_frappe_x1_025_9edf1620:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1056,7 +1056,7 @@ FinalMLP_frappe_x1_026_9322fc56:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1098,7 +1098,7 @@ FinalMLP_frappe_x1_027_23d3517f:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1140,7 +1140,7 @@ FinalMLP_frappe_x1_028_accc72b6:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1182,7 +1182,7 @@ FinalMLP_frappe_x1_029_568737e2:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1224,7 +1224,7 @@ FinalMLP_frappe_x1_030_efe0a897:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1266,7 +1266,7 @@ FinalMLP_frappe_x1_031_603ae6a4:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]
@@ -1308,7 +1308,7 @@ FinalMLP_frappe_x1_032_b99338a0:
     embedding_dim: 10
     embedding_regularizer: 0.05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     fs1_context: [user]
     fs2_context: [item]

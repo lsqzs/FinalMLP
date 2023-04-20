@@ -6,7 +6,7 @@ DualMLP_criteo_x1_001_0aa31de8:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -43,7 +43,7 @@ DualMLP_criteo_x1_002_53a11d2c:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -80,7 +80,7 @@ DualMLP_criteo_x1_003_a7463c1d:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -117,7 +117,7 @@ DualMLP_criteo_x1_004_5cdf5c6d:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -154,7 +154,7 @@ DualMLP_criteo_x1_005_e81c4ef5:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -191,7 +191,7 @@ DualMLP_criteo_x1_006_cb0adef6:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -228,7 +228,7 @@ DualMLP_criteo_x1_007_53a11d2c:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -265,7 +265,7 @@ DualMLP_criteo_x1_008_d42a19a2:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -302,7 +302,7 @@ DualMLP_criteo_x1_009_5cdf5c6d:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -339,7 +339,7 @@ DualMLP_criteo_x1_010_c6000df2:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -376,7 +376,7 @@ DualMLP_criteo_x1_011_cb0adef6:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -413,7 +413,7 @@ DualMLP_criteo_x1_012_6bdf19e7:
     embedding_dim: 10
     embedding_regularizer: 1.0e-05
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -450,7 +450,7 @@ DualMLP_criteo_x1_013_8e52dc11:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -487,7 +487,7 @@ DualMLP_criteo_x1_014_5a7f557c:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -524,7 +524,7 @@ DualMLP_criteo_x1_015_5cfda2c1:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -561,7 +561,7 @@ DualMLP_criteo_x1_016_c24fafb0:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -598,7 +598,7 @@ DualMLP_criteo_x1_017_c654e562:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -635,7 +635,7 @@ DualMLP_criteo_x1_018_3243a24b:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -672,7 +672,7 @@ DualMLP_criteo_x1_019_5a7f557c:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -709,7 +709,7 @@ DualMLP_criteo_x1_020_cbad5559:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -746,7 +746,7 @@ DualMLP_criteo_x1_021_c24fafb0:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -783,7 +783,7 @@ DualMLP_criteo_x1_022_c4522beb:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -820,7 +820,7 @@ DualMLP_criteo_x1_023_3243a24b:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
@@ -857,7 +857,7 @@ DualMLP_criteo_x1_024_d723dda9:
     embedding_dim: 10
     embedding_regularizer: 0.0001
     epochs: 100
-    eval_interval: 1
+    eval_steps: null
     feature_specs: null
     group_id: null
     learning_rate: 0.001
