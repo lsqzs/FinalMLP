@@ -1,5 +1,7 @@
 # FinalMLP
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/finalmlp-an-enhanced-two-stream-mlp-model-for-1/click-through-rate-prediction-on-criteo)](https://paperswithcode.com/sota/click-through-rate-prediction-on-criteo?p=finalmlp-an-enhanced-two-stream-mlp-model-for-1)
+
 Click-through rate (CTR) prediction is one of the fundamental tasks for online advertising and recommendation. Although a vanilla MLP is shown inefficient in learning high-order feature interactions, we found that a two-stream MLP model (DualMLP) that simply combines two well-tuned MLP networks can achieve surprisingly good performance. Based on this observation, we further propose feature selection and interaction aggregation layers that can be easily plugged in to build an enhanced two-stream MLP model, namely FinalMLP. We envision that the simple yet effective FinalMLP model could serve as a new strong baseline for future developments of two-stream CTR models.
 
 > Kelong Mao, Jieming Zhu, Liangcai Su, Guohao Cai, Yuru Li, Zhenhua Dong. [FinalMLP: An Enhanced Two-Stream MLP Model for CTR Prediction](https://arxiv.org/abs/2304.00902), in AAAI 2023.
@@ -13,16 +15,15 @@ Two-stream models (e.g., DeepFM, DCN) have been widely used for CTR prediction, 
 </div>
 
 
-
 **Key components:**
 
-+ *Stream-specific feature selection*: We perform feature gating from different views via conditioning on learnable parameters, user features, or item features, which produces global, user-specific, or item-specific feature importance weights respectively.
++ *Stream-specific feature selection*: We perform feature gating from different views via conditioning on learnable parameters, user features, or item features, which produces global, user-specific, or item-specific feature importance weights, respectively.
   
   $$\mathbf{g_1} = {Gate}_1(\mathbf{x_1}), ~~~ \mathbf{g_2} = {Gate}_2(\mathbf{x_2})$$
   
   $$\mathbf{h_1} = 2\sigma (\mathbf{g_1})\odot \mathbf{e}, ~~~ \mathbf{h_2} = 2\sigma(\mathbf{g_2})\odot\mathbf{e}$$
 
-+ *Stream-level interaction aggregation*: We propose a multi-head bilinear interaction aggregation layer to fuse the stream outputs with stream-level feature interaction.
++ *Stream-level interaction aggregation*: We propose an interaction aggregation layer to fuse the stream outputs with multi-head bilinear fusion.
   
   $$BF(\mathbf{o}_1, \mathbf{o}_2) = b + \mathbf{w}_1^{T}\mathbf{o}_1 + \mathbf{w}_2^{T}\mathbf{o}_2 + \mathbf{o}_1^{T}\mathbf{W}_3\mathbf{o}_2$$
   
@@ -45,20 +46,17 @@ The `dataset_config.yaml` file contains all the dataset settings as follows.
   
 | Params                        | Type | Default | Description                                                                                                                             |
 | ----------------------------- | ---- | ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| data_root                     | str  |         | data directory to save h5 data                                                                                                          |
+| data_root                     | str  |         | the root directory to load and save data data                                                                                                          |
 | data_format                   | str  |         | input data format, "h5", "csv", or "tfrecord" supported                                                                                 |
 | train_data                    | str  | None    | training data path                                                                                                                      |
 | valid_data                    | str  | None    | validation data path                                                                                                                    |
 | test_data                     | str  | None    | test data path                                                                                                                          |
 | min_categr_count              | int  | 1       | min count to filter category features,                                                                                                  |
 | feature_cols                  | list |         | a list of features with the following dict keys                                                                                         |
-| feature_cols::name            | str  |         | feature column name in csv                                                                                                              |
+| feature_cols::name            | str\|list  |         | feature column name in csv. A list is allowed in which the features have the same feature type and will be expanded accordingly.                                                                                                               |
 | feature_cols::active          | bool |         | whether to use the feature                                                                                                              |
-| feature_cols::dtype           | str  |         | the input data dtype, "int"/"str"                                                                                                       |
-| feature_cols::type            | str  |         | feature type "numeric"/"categorical"/"sequence"/"meta"                                                                                  |
-| feature_cols::source          | str  |         | "user"/"item"/"context" (optional), used to group features                                                                              |
-| feature_cols::remap           | bool | True    | whether to remap IDs via feature encoding. When the feature column is already encoded, set remap=False can avoid unnecessary remapping. |
-| feature_cols::share_embedding | str  |         | (optional) specify which features to share embedding table                                                                              |
+| feature_cols::dtype           | str  |         | the input data dtype, "int"\|"str"                                                                                                       |
+| feature_cols::type            | str  |         | feature type "numeric"\|"categorical"\|"sequence"\|"meta"                                                                                  |
 | label_col                     | dict |         | specify label column                                                                                                                    |
 | label_col::name               | str  |         | label column name in csv                                                                                                                |
 | label_col::dtype              | str  |         | label data dtype                                                                                                                        |
@@ -76,12 +74,12 @@ The `model_config.yaml` file contains all the model hyper-parameters as follows.
 | task                    | str             | "binary_classification" | task type supported: ```"regression"```, ```"binary_classification"```                                                                                                                                            |
 | optimizer               | str             | "adam"                  | optimizer used for training                                                                                                                                                                                       |
 | learning_rate           | float           | 1.0e-3                  | learning rate                                                                                                                                                                                                     |
-| embedding_regularizer   | float/str       | 0                       | regularization weight for embedding matrix: L2 regularization is applied by default. Other optional examples: ```"l2(1.e-3)"```, ```"l1(1.e-3)"```, ```"l1_l2(1.e-3, 1.e-3)"```.                                  |
-| net_regularizer         | float/str       | 0                       | regularization weight for network parameters: L2 regularization is applied by default. Other optional examples: ```"l2(1.e-3)"```, ```"l1(1.e-3)"```, ```"l1_l2(1.e-3, 1.e-3)"```.                                |
+| embedding_regularizer   | float\|str       | 0                       | regularization weight for embedding matrix: L2 regularization is applied by default. Other optional examples: ```"l2(1.e-3)"```, ```"l1(1.e-3)"```, ```"l1_l2(1.e-3, 1.e-3)"```.                                  |
+| net_regularizer         | float\|str       | 0                       | regularization weight for network parameters: L2 regularization is applied by default. Other optional examples: ```"l2(1.e-3)"```, ```"l1(1.e-3)"```, ```"l1_l2(1.e-3, 1.e-3)"```.                                |
 | batch_size              | int             | 10000                   | batch size, usually a large number for CTR prediction task                                                                                                                                                        |
 | embedding_dim           | int             | 32                      | embedding dimension of features. Note that field-wise embedding_dim can be specified in ```feature_specs```.                                                                                                      |
 | mlp1_hidden_units       | list            | [64, 64, 64]            | hidden units in MLP1                                                                                                                                                                                              |
-| mlp1_hidden_activations | str/list        | "relu"                  | activation function in MLP1. Particularly, layer-wise activations can be specified as a list, e.g., ["relu",  "leakyrelu", "sigmoid"]                                                                             |
+| mlp1_hidden_activations | str\|list        | "relu"                  | activation function in MLP1. Particularly, layer-wise activations can be specified as a list, e.g., ["relu",  "leakyrelu", "sigmoid"]                                                                             |
 | mlp2_hidden_units       | list            | [64, 64, 64]            | hidden units in MLP2                                                                                                                                                                                              |
 | mlp2_hidden_activations | str             | "relu"                  | activation function in MLP2. Particularly, layer-wise activations can be specified as a list, e.g., ["relu", "leakyrelu", "sigmoid"]                                                                              |
 | mlp1_dropout            | float           | 0                       | dropout rate in MLP1                                                                                                                                                                                              |
@@ -96,12 +94,12 @@ The `model_config.yaml` file contains all the model hyper-parameters as follows.
 | epochs                  | int             | 100                     | the max number of epochs for training, which can early stop via monitor metrics.                                                                                                                                  |
 | shuffle                 | bool            | True                    | whether shuffle the data samples for each epoch of training                                                                                                                                                       |
 | seed                    | int             | 2021                    | the random seed used for reproducibility                                                                                                                                                                          |
-| monitor                 | str/dict        | 'AUC'                   | the monitor metrics for early stopping. It supports a single metric, e.g., ```"AUC"```. It also supports multiple metrics using a dict, e.g., {"AUC": 2, "logloss": -1} means ```2*AUC - logloss```.              |
+| monitor                 | str\|dict        | 'AUC'                   | the monitor metrics for early stopping. It supports a single metric, e.g., ```"AUC"```. It also supports multiple metrics using a dict, e.g., {"AUC": 2, "logloss": -1} means ```2*AUC - logloss```.              |
 | monitor_mode            | str             | 'max'                   | ```"max"``` means that the higher the better, while ```"min"``` denotes that the lower the better.                                                                                                                |
 | model_root              | str             | './checkpoints/'        | the dir to save model checkpoints and running logs                                                                                                                                                                |
 | early_stop_patience     | int             | 2                       | training is stopped when monitor metric fails to become better for ```early_stop_patience=2```consective evaluation intervals.                                                                                    |
 | save_best_only          | bool            | True                    | whether to save the best model checkpoint only                                                                                                                                                                    |
-| eval_steps              | int/None        | None                    | evaluate the model on validation data every ```eval_steps```. By default, ```None``` means evaluation every epoch.                                                                                                |
+| eval_steps              | int\|None        | None                    | evaluate the model on validation data every ```eval_steps```. By default, ```None``` means evaluation every epoch.                                                                                                |
 
 
 ## Results
@@ -221,5 +219,5 @@ The evaluation results on AUC:
 
 ### Reproduce the baseline results
 
-For reproducing steps of our baseline results, please refer to the BARS benchmark https://github.com/openbenchmark/BARS/tree/main/ctr_prediction/benchmarks
+For reproducing steps of our baseline results, please refer to the BARS benchmark at https://github.com/openbenchmark/BARS/tree/main/ctr_prediction/benchmarks
 

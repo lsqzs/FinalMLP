@@ -10,7 +10,7 @@ from fuxictr.features import FeatureMap
 from fuxictr.pytorch.torch_utils import seed_everything
 from fuxictr.pytorch.dataloaders import H5DataLoader
 from fuxictr.preprocess import FeatureProcessor, build_dataset
-import src as model_zoo
+import model
 import gc
 import argparse
 import os
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     feature_map.load(feature_map_json, params)
     logging.info("Feature specs: " + print_to_json(feature_map.features))
     
-    model_class = getattr(model_zoo, params['model'])
+    model_class = getattr(model, params['model'])
     model = model_class(feature_map, **params)
     model.count_parameters() # print number of parameters used in model
 
